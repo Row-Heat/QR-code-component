@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+font-family: 'Outfit', sans-serif;
+background-color: hsl(212, 45%, 89%);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+.card {
+    width: 320px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.cardImg{
+    max-width: 100%;
+    border-radius: 14px;
+}
+
+.cardHeader {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.2rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.cardText{
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+</head>
+<body>
+
+  <div class="card">
+    <img src="images/image-qr-code.png" class="cardImg" alt="">
+    <h3 class="cardHeader">Improve your front-end skills by building projects</h3>
+    <p class="cardText">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Row-Heat</a>.
+  </div>
+</body>
+</html>
